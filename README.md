@@ -137,7 +137,7 @@ pip install tiktokautouploader
 1. Truy cập [Shopee Affiliate](https://affiliate.shopee.vn)
 2. Đăng nhập tài khoản
 3. Copy **Affiliate ID** từ dashboard
-4. Ví dụ: `17395550452`
+4. Ví dụ: `1234567890`
 
 ### Bước 2: Lấy TikTok Session ID
 
@@ -157,10 +157,10 @@ Mở file `config.py` và cập nhật:
 
 ```python
 # 1. AFFILIATE ID của bạn trên Shopee
-AFFILIATE_ID = "17395550452"  # <--- THAY VÀO ĐÂY
+AFFILIATE_ID = "1234567890"  # <--- THAY VÀO ĐÂY
 
 # 2. SESSION ID từ TikTok
-TIKTOK_SESSION_ID = "7c460458088cb7f504ce503f96418bbc"  # <--- DÁN VÀO ĐÂY
+TIKTOK_SESSION_ID = "abc123def0933805ndnf"  # <--- DÁN VÀO ĐÂY
 
 # (Tùy chọn) Cấu hình khác:
 SCHEDULE_TIMES = ["07:00", "12:00", "19:00"]  # 3 bài/ngày
@@ -179,8 +179,8 @@ python main.py
 **Output mong đợi:**
 ```
 🐍 TIKTOK AFFILIATE BOT
-🔑 Affiliate ID: 17395550452
-📱 TikTok Session: 7c460458088cb7...
+🔑 Affiliate ID: 1234567890
+📱 TikTok Session: abc123nfuanfonagi23453...
 -----------
 🟢 Chạy thử 1 lần...
 
@@ -232,7 +232,7 @@ python -c "import schedule, time; from main import run_job; schedule.every(4).ho
 
 ```python
 # real_shopee_api.py - Cách hoạt động
-scraper = RealShopeeAPI("17395550452")
+scraper = RealShopeeAPI("1234567890")
 products = scraper.get_hot_products(limit=20)
 
 # Output:
@@ -479,12 +479,12 @@ MIT License - Xem file [LICENSE](LICENSE) để chi tiết
 
 ## 📞 Support
 
-- 📧 Email: [your-email@example.com]
+- 📧 Email: [phat.tran09192005@gmail.com]
 - 🐛 Issues: https://github.com/your-repo/issues
 - 💬 Discussions: https://github.com/your-repo/discussions
 
 ---
-
+ =============================================
 ---
 
 ## English Version
@@ -628,7 +628,7 @@ pip install tiktokautouploader
 1. Visit [Shopee Affiliate](https://affiliate.shopee.vn)
 2. Login with your account
 3. Copy **Affiliate ID** from dashboard
-4. Example: `17395550452`
+4. Example: `1234567890`
 
 ### Step 2: Get TikTok Session ID
 
@@ -648,10 +648,10 @@ Open `config.py` and update:
 
 ```python
 # 1. Your Shopee Affiliate ID
-AFFILIATE_ID = "17395550452"  # <--- REPLACE HERE
+AFFILIATE_ID = "1234567890"  # <--- REPLACE HERE
 
 # 2. TikTok Session ID
-TIKTOK_SESSION_ID = "7c460458088cb7f504ce503f96418bbc"  # <--- PASTE HERE
+TIKTOK_SESSION_ID = "abc123nfuanfonagi23453"  # <--- PASTE HERE
 
 # (Optional) Other configuration:
 SCHEDULE_TIMES = ["07:00", "12:00", "19:00"]  # 3 posts/day
@@ -670,8 +670,8 @@ python main.py
 **Expected Output:**
 ```
 🐍 TIKTOK AFFILIATE BOT
-🔑 Affiliate ID: 17395550452
-📱 TikTok Session: 7c460458088cb7...
+🔑 Affiliate ID: 1234567890
+📱 TikTok Session: abc123nfuanfonagi23453...
 -----------
 🟢 Running test once...
 
@@ -723,7 +723,7 @@ python -c "import schedule, time; from main import run_job; schedule.every(4).ho
 
 ```python
 # real_shopee_api.py - How it works
-scraper = RealShopeeAPI("17395550452")
+scraper = RealShopeeAPI("1234567890")
 products = scraper.get_hot_products(limit=20)
 
 # Output:
@@ -970,7 +970,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ## 📞 Support
 
-- 📧 Email: [your-email@example.com]
+- 📧 Email: [phat.tran09192005@gmail.com]
 - 🐛 Issues: https://github.com/your-repo/issues
 - 💬 Discussions: https://github.com/your-repo/discussions
 
